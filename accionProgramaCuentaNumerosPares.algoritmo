@@ -1,0 +1,16 @@
+accion_ProgramaCuentaNumerosPares
+	ambiente
+		numero, cont, n: entero
+	algoritmo			
+		escribir("ingrese un numero")
+		leer(numero)
+		cont:=0
+		para(n:=1;n:=n+1;n<=numero)
+			si(numero mod 2:=0)
+				cont:=cont + 1
+			fin_si
+		fin_para
+	fin_algoritmo
+fin_accionProgramaCuentaNumerosPares
+		
+		

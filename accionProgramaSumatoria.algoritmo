@@ -1,0 +1,11 @@
+accion_programaSumatoria
+	ambiente
+		cont :entero
+	algoritmo		
+		cont:=0
+		repetir
+			escribir(cont)
+			cont:=cont + 1
+		hasta (cont==100)
+	fin_algoritmo
+fin_accionProgramaSumatoria

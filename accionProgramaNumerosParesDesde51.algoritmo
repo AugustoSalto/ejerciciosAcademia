@@ -1,0 +1,14 @@
+accion_numerosParesDesde51
+	ambiente
+		nummero: entero
+	algoritmo
+		escribir("ingrese un número desde el 51")
+		leer(numero)
+		cont:=0
+		para(num:=51;num:=num+1;num<=numero)
+			si(numero mod 2:=0)entonces
+				cont:cont+1
+			fin_si
+		fin_para
+	fin_algoritmo
+fin_accionNumerosParesDesde51
